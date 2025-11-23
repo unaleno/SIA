@@ -29,9 +29,7 @@ public class VentanaInicio extends JFrame {
         // ==================================
         add(new EncabezadoSia(), BorderLayout.NORTH);
 
-        // ==================================
-        // MENÚ LATERAL
-        // ==================================
+  
         JPanel menuLateral = crearMenuLateralEstilizado();
         add(menuLateral, BorderLayout.WEST);
 
@@ -221,4 +219,5 @@ public class VentanaInicio extends JFrame {
         panelContenido.revalidate();
         panelContenido.repaint();
     }
+
 }
